@@ -1,0 +1,7 @@
+set COHERENCE_LIB="G:\Technical\Workspace\Java\libs\OracleCoherence\coherence\lib\"
+
+set COHERENCE_CFG="G:\Technical\Workspace\Java\ProjectCoherence\"
+
+java -cp COHERENCE_CFG\config\;COHERENCE_LIB\coherence.jar com.tangosol.net.DefaultCacheServer
+
+java -cp G:\Technical\Workspace\Java\libs\OracleCoherence\coherence\lib\coherence.jar;G:\Technical\Workspace\Java\ProjectCoherence\  com.tangosol.net.DefaultCacheServer
